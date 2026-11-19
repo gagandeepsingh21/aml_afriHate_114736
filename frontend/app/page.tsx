@@ -87,24 +87,24 @@ export default function Home() {
               Text Classification
             </div>
 
-            <div className="px-4 py-3 text-slate-400">
-              Language Testing
-            </div>
+            {/*<div className="px-4 py-3 text-slate-400">*/}
+            {/*  Language Testing*/}
+            {/*</div>*/}
 
-            <div className="px-4 py-3 text-slate-400">
-              Evaluation Results
-            </div>
+            {/*<div className="px-4 py-3 text-slate-400">*/}
+            {/*  Evaluation Results*/}
+            {/*</div>*/}
 
-            <div className="px-4 py-3 text-slate-400">
-              About the Research
-            </div>
+            {/*<div className="px-4 py-3 text-slate-400">*/}
+            {/*  About the Research*/}
+            {/*</div>*/}
           </div>
 
-          <div className="mt-auto border-t border-slate-800 pt-5 text-xs text-slate-500">
-            MSc Research Project
-            <br />
-            African Language Analysis
-          </div>
+          {/*<div className="mt-auto border-t border-slate-800 pt-5 text-xs text-slate-500">*/}
+          {/*  MSc Research Project*/}
+          {/*  <br />*/}
+          {/*  African Language Analysis*/}
+          {/*</div>*/}
         </aside>
 
         {/* Main content */}
