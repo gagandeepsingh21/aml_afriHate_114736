@@ -69,4 +69,9 @@ Ensure both the backend and frontend servers are running in separate terminals.
 
 Open `http://localhost:3000` in your browser to access the AfriHate application.
 
-Open the project notebook in JupyterLab to explore the dataset preparation, preprocessing, model training, and evaluation process.
+
+## Implementation Note
+
+The initial project approach included exploring **AfroXLMR** for multilingual hate-speech and abusive-language classification. However, due to limited computational resources, TF-IDF feature extraction combined with Logistic Regression was adopted as the main modelling approach.
+
+This approach provided a computationally efficient alternative while allowing the project to investigate multilingual text classification across the selected African languages.
