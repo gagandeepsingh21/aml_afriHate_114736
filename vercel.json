@@ -1,9 +1,11 @@
+
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "app": {
       "root": ".",
-      "runtime": "python"
+      "runtime": "python",
+      "entrypoint": "app/main.py"
     },
     "frontend": {
       "root": "frontend",
@@ -12,7 +14,25 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/health",
+      "destination": {
+        "service": "app"
+      }
+    },
+    {
+      "source": "/predict",
+      "destination": {
+        "service": "app"
+      }
+    },
+    {
+      "source": "/docs",
+      "destination": {
+        "service": "app"
+      }
+    },
+    {
+      "source": "/openapi.json",
       "destination": {
         "service": "app"
       }
