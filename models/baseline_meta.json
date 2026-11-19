@@ -1,0 +1,10 @@
+{
+  "classes": [
+    "abuse",
+    "hate",
+    "normal"
+  ],
+  "held_out_language": "swa",
+  "best_C": 2,
+  "developer": "Gagandeep Singh Gahir"
+}
