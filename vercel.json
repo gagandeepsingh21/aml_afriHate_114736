@@ -36,6 +36,12 @@
       "destination": {
         "service": "app"
       }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
     }
   ]
 }
