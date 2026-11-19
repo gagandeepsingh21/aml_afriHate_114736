@@ -5,3 +5,6 @@ datasets
 scikit-learn
 joblib
 matplotlib
+fastapi
+uvicorn
+pydantic
