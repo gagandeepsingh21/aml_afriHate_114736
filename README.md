@@ -30,6 +30,8 @@ Install the Python dependencies:
 pip install -r requirements.txt
 ```
 
+**Run all the cells in the notebook** 
+
 Start the FastAPI backend:
 
 ```bash
@@ -53,6 +55,11 @@ Create a `.env.local` file inside the `frontend` directory:
 
 ```env
 NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+```
+
+Restart the development server from your root directory
+```bash
+uvicorn app.main:app --reload
 ```
 
 Start the frontend:
