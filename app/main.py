@@ -28,11 +28,11 @@ if info_file.exists():
     if trained_with and trained_with != sklearn.__version__:
         print(f"WARNING: model trained with scikit-learn {trained_with}, but {sklearn.__version__} is installed")
 
-# a post goes to a human reviewer when the model thinks P(normal) is below this value
+
 REVIEW_THRESHOLD = float(info.get("review_threshold", 0.5))
 
 classes = [str(c) for c in model.classes_]
-normal_at = [c.lower() for c in classes].index("normal")     # works for "normal" and "Normal"
+normal_at = [c.lower() for c in classes].index("normal")
 
 
 class TweetInput(BaseModel):
